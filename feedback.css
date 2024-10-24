@@ -1,0 +1,47 @@
+body{
+    background-color: palevioletred;
+    font-family: cursive;
+}
+.feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+
+}
+textarea{
+    border-radius: 5px;
+    
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+button{
+    border-radius: 15px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+}
+input{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+textarea:focus{
+    box-shadow: 8px 8px 26px black;
+    transition: 0.2s ease-in-out;
+    height: 100px;
+    width: 300px;
+}
+input:focus{
+    box-shadow: 8px 8px 26px black;
+    transition: 0.2s ease-in-out;
+    width: 300px;
+}
+button:hover{
+    background-color: black;
+    color: palevioletred;
+}
